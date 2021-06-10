@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Baloo+2&family=Roboto:wght@300&family=Russo+One&display=swap");
+/* font-family: 'Acme', sans-serif;
+font-family: 'Baloo 2', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Russo One', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #121418;
+  flex-direction: column;
+}
+body p {
+  margin-top: 1%;
+  font-size: 17px;
+  font-family: "Acme", sans-serif;
+  color: rgb(206, 206, 206);
+}
+body p a {
+  padding: 0 10px;
+  font-style: italic;
+  color: #eca100;
+  text-decoration: none;
+}
+input,
+button:focus {
+  outline: none;
+}
+form {
+  background-color: #121418;
+  padding: 50px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px #07080a, -6px -6px 10px #1d2026;
+}
+
+form h2 {
+  font-size: 30px;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+form label {
+  font-size: 17px;
+  font-family: "Acme", sans-serif;
+  color: #d1d1d1;
+}
+form input {
+  margin: 10px 0 30px 0;
+  padding: 25px 10px;
+  border: 0;
+  background-color: #121418;
+  font-family: "Baloo 2", cursive;
+  color: #eca100;
+  font-size: 17px;
+  box-shadow: inset 5px 5px 8px #07080a, inset -5px -5px 8px #1d2026;
+}
+
+form button {
+  width: 100%;
+  margin: 4% 0 0 0;
+  padding: 20px 10px;
+  background: linear-gradient(145deg, #101216, #13151a);
+  box-shadow: 5px 5px 8px #07080a, -5px -5px 8px #1d2026;
+  border: 0;
+  color: #eca100;
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+}
